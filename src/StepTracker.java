@@ -59,7 +59,7 @@ public class StepTracker {
             month = scanner.nextInt();
         } else {
             for (int i = 0; i < monthToData[month].length; i++) {
-                System.out.print((i + 1) + " День: " + monthToData[month][i] + ", ");
+                System.out.println((i + 1) + " День: " + monthToData[month][i] + ". ");
                 totalSteps = totalSteps + monthToData[month][i]; //общее количество шагов
                 if (monthToData[month][i] > maxSteps) {
                     maxSteps = monthToData[month][i]; // максимум шагов за месяц
